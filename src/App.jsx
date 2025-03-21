@@ -112,38 +112,35 @@ function App() {
         </div>
       </div>
 
-      <div className="relative mt-16">
-        <img
-          src="src\assets\images\image.png"
-          alt="Earth"
-          className="flex w-[818px] h-[996px] left-[26px] m-[20px]"
-        />
-        <div className="absolute top-4 right-4 bg-green-600 text-white p-4 rounded-lg w-[446px] h-[246.05px]">
-          <h2 className="font-bold text-[87.92px] leading-[100%] tracking-[1%] uppercase">
-            3X
-          </h2>
-          <p className="text-[29.31px] leading-[100%] tracking-[1%] titlecase w-[416.69px] h-[114px]">
-            ESG High Performers Deliver A Higher Total Shareholder Return
-          </p>
+      <div className="relative flex min-h-screen bg-gray-100">
+        {/* Background Image */}
+        <div className="relative w-[900px] h-[600px]  mt-12">
+          <img
+            src="src\assets\images\image.png"
+            alt="Sustainability"
+            className="w-full h-full object-contain pl-[0px]"
+          />
         </div>
 
-        <div className="absolute top-[332px] left-[474px] bg-gray-800 text-white w-[246px]  h-[173px] rounded-lg px-[13.83px] py-[9.51px]">
-          <h2 className="text-[55px] font-bold">98%</h2>
-          <p>Of CEOs Agree Sustainability Is Their Responsibility</p>
+        {/* Stats Cards */}
+        <div className="absolute top-35 right-[27rem] bg-green-600 text-white p-4 rounded-lg w-[219px] shadow-lg">
+          <p className="text-3xl font-extrabold">3X</p>
+          <p className="text-sm">ESG High Performers Deliver A Higher Total Shareholder Return</p>
         </div>
-        <div className="absolute top-1/2 left-[857px] right-0 bg-gray-800 text-white p-4 rounded-lg">
-          <h2 className="text-3xl font-bold">18%</h2>
-          <p>
-            Of Companies Are Cutting Emissions Fast Enough To Reach Net Zero By
-            2050
-          </p>
+        
+        <div className="absolute top-70 right-[27rem] bg-gray-800 text-white p-4 rounded-lg w-[219px] shadow-lg">
+          <p className="text-3xl font-extrabold">98%</p>
+          <p className="text-sm">Of CEOs Agree Sustainability Is Their Responsibility</p>
         </div>
-        <div className="absolute bottom-[100px] left-[559px] bg-white text-green-600  rounded-lg px-[11px] py-[16px]">
-          <h2 className="text-3xl font-bold">37%</h2>
-          <p>
-            Of The World's Largest Companies Have A Public Net Zero Target.
-            Nearly All Are Off Track
-          </p>
+        
+        <div className="absolute bottom-16 right-[-5rem] bg-gray-900 text-white p-4 rounded-lg w-[219px] shadow-lg">
+          <p className="text-2xl font-extrabold">18%</p>
+          <p className="text-sm">Of Companies Are Cutting Emissions Fast Enough To Reach Net Zero By 2050</p>
+        </div>
+
+        <div className="absolute bottom-[-2rem] left-[70%] bg-white text-green-700 p-4 rounded-lg w-[219px] shadow-lg">
+          <p className="text-2xl font-extrabold">37%</p>
+          <p className="text-sm">Of The World’s Largest Companies Have A Public Net Zero Target. Nearly All Are Off Track</p>
         </div>
       </div>
     </div>
