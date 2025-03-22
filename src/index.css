@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: "customfont";
-  src: url("src\assets\fonts\AeonikTRIAL-Regular.otf") format("otf");
+  src: url("public/assets/fonts/AeonikTRIAL-Regular.otf") format("otf");
   font-weight: normal;
   font-style: normal;
 }
