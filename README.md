@@ -1,5 +1,5 @@
 # Carbon Crunch
-- Hosted Link - 
+- Hosted Link - https://carbon-crunchs.netlify.app/
 ## Animations
 - The application uses GSAP for animations. The following animations are implemented:
 
