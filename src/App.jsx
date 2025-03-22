@@ -120,37 +120,37 @@ function App() {
               title: "Automated Data Collection",
               description:
                 "Our system automates carbon data collection, saving time, reducing errors, and ensuring accurate sustainability reporting.",
-              imgSrc: "src\\assets\\images\\icon-1.png",
+              imgSrc: "src/assets/images/icon-1.png",
             },
             {
               title: "Monitoring & Reporting",
               description:
                 "Effortlessly track and report carbon emissions with automated monitoring, ensuring accuracy and compliance in sustainability reporting.",
-              imgSrc: "src\\assets\\images\\icon-1.png",
+              imgSrc: "src/assets/images/icon-1.png",
             },
             {
               title: "Monitoring & Reporting",
               description:
                 "Effortlessly track and report carbon emissions with automated monitoring, ensuring accuracy and compliance in sustainability reporting.",
-              imgSrc: "src\\assets\\images\\icon-1.png",
+              imgSrc: "src/assets/images/icon-1.png",
             },
             {
               title: "Simplified Certification Process",
               description:
                 "Streamline your certification process with our simplified, automated solution, reducing complexity and ensuring faster compliance.",
-              imgSrc: "src\\assets\\images\\icon-1.png",
+              imgSrc: "src/assets/images/icon-1.png",
             },
             {
               title: "AI-Driven Insights",
               description:
                 "Leverage AI-driven insights to uncover hidden patterns, optimize sustainability strategies, and drive impactful decision-making.",
-              imgSrc: "src\\assets\\images\\icon-1.png",
+              imgSrc: "src/assets/images/icon-1.png",
             },
             {
               title: "AI-Driven Insights",
               description:
                 "Leverage AI-driven insights to uncover hidden patterns, optimize sustainability strategies, and drive impactful decision-making.",
-              imgSrc: "src\\assets\\images\\icon-1.png",
+              imgSrc: "src/assets/images/icon-1.png",
             },
           ].map((item, index) => (
             <div
@@ -173,7 +173,7 @@ function App() {
       <div className="flex min-h-screen bg-gray-100 w-full relative">
         <div className="w-[50%]" ref={imageRef}>
           <img
-            src="src\\assets\\images\\image.png"
+            src="src/assets/images/image.png"
             alt="Sustainability"
             className="w-[700px] h-[800px] object-cover"
           />
